@@ -34,11 +34,8 @@ pub fn convert_units(value: u64, from: &str, to: &str) -> u64 {
     units.insert("pb", 8 * 1024 * 1024 * 1024 * 1024 * 1024);
     units.insert("eb", 8 * 1024 * 1024 * 1024 * 1024 * 1024 * 1024);
 
-    // Convert the given value to bits
-    let value_in_bits = value * units[from];
-
-    // Convert the bit value to the target unit
-    let result = value_in_bits / units[to];
+    let value_in_bits = value * units.get(from).expect("Invalid 'from' unit");
+    let result = value_in_bits / units.get(to).expect("Invalid 'to' unit");
 
     result
 }
