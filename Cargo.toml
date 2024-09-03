@@ -3,11 +3,12 @@ name = "data_units"
 version = "0.1.0"
 edition = "2021"
 description = "Data unit converter"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 repository = "https://github.com/encoderuz/data_units"
 homepage = "https://github.com/encoderuz/data_units"
 documentation = "https://docs.rs/data_units"
 readme = "README.md"
 keywords = ["converter", "mb", "gb", "tb", "kb"]
+authors = ["Abdukodir Khojiyev <abduqodirxojiyev@gmail.com>"]
 
 [dependencies]
