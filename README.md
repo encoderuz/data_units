@@ -14,3 +14,8 @@ let result = convert_units(8, "bit", "byte"); // 1
 
 Allowed units
 ```bit,byte,kb,mb,gb,tb,pb,eb```
+
+
+## **License**
+[![MIT](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/200px-MIT_logo.svg.png)](https://opensource.org/licenses/MIT)
+<br>Licensed Under <a href="https://opensource.org/licenses/MIT">The MIT License</a>
